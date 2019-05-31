@@ -1,0 +1,14 @@
+{
+  "name": "ducktape",
+  "version": "1.0.0",
+  "description": "ducktape for tape",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Lorenzo Giuliani <lorenzo@frenzart.com>",
+  "license": "ISC",
+  "dependencies": {
+    "tape": "^4.10.2"
+  }
+}
