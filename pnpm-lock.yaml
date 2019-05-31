@@ -1,7 +1,19 @@
 dependencies:
   tape: 4.10.2
+devDependencies:
+  '@types/tape': 4.2.33
 lockfileVersion: 5
 packages:
+  /@types/node/12.0.4:
+    dev: true
+    resolution:
+      integrity: sha512-j8YL2C0fXq7IONwl/Ud5Kt0PeXw22zGERt+HSSnwbKOJVsAGkEz3sFCYwaF9IOuoG1HOtE0vKCj6sXF7Q0+Vaw==
+  /@types/tape/4.2.33:
+    dependencies:
+      '@types/node': 12.0.4
+    dev: true
+    resolution:
+      integrity: sha512-ltfyuY5BIkYlGuQfwqzTDT8f0q8Z5DGppvUnWGs39oqDmMd6/UWhNpX3ZMh/VYvfxs3rFGHMrLC/eGRdLiDGuw==
   /balanced-match/1.0.0:
     dev: false
     resolution:
@@ -220,4 +232,5 @@ packages:
     resolution:
       integrity: sha1-tSQ9jz7BqjXxNkYFvA0QNuMKtp8=
 specifiers:
+  '@types/tape': ^4.2.33
   tape: ^4.10.2
