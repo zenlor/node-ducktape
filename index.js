@@ -3,11 +3,9 @@ const assert = require('assert');
 
 const isPromise = x => x && typeof x.then === 'function';
 
-module.exports = function ducktape(description, fn) {
+module.exports = exports = function ducktape(description, fn) {
     assert(typeof description === 'string');
     assert(typeof fn === 'function');
-
-    console.error("preparing >> ", description)
 
     const onEnd = (t) => () => t.end();
     const onErr = (t) => (err) => t.end(err);
